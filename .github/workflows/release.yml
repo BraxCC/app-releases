@@ -22,7 +22,7 @@ jobs:
         with:
           repository: BraxCC/recap-app
           ref: ${{ inputs.version }}
-          token: ${{ secrets.RECAP_APP_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
